@@ -1,6 +1,6 @@
 # robot_simulation
 
-##robot simulation code
+## robot simulation code
 ### - sim_robot 
  1) test 1 = 무중력 상태에서 center of mass의 위치를 변경시켜 (x,y,z) 힘을 주었을 때 결과 simulation을 확인
  2) test 2 = 무중력 상태에서 ur10e(UR6) 팔을 부착한 후 접었을 때의 wrench 및 simulation 결과 확인
