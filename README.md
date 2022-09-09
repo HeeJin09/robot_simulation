@@ -7,3 +7,6 @@
  3) test 3 = 무중력 상태에서 box.urdf 와 ur10e.urdf를 각각 불러 base 기준으로 resetbasepositionandorientation을 하여 하나의 urdf처럼 이어지도록 만듦
  4) test 4 = 무중력 상태애서 getlinkstate를 통해 end_effector(kuka.urdf)의 pos를 읽어들여와 end_effector에 ur10e resetbasepositionandorientation를 시켜준다
  5) test 5 = test_4와 같은 상황에서 중력을 준 후 중력을 보상하도록 하는 simulation
+ 6) test 6 =  calculate urdf + jacobian (fail)
+ 7) test 7 = calculate jacobian
+ 8) test 10 = urdf(kuku + box + ur10e)에 중력 보상 후 jacobian 계산해서 force 
